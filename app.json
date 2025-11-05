@@ -1,5 +1,6 @@
 {
   "expo": {
+    "entryPoint": "./src/App.tsx",
     "name": "expo-camera-app",
     "slug": "expo-camera-app",
     "version": "1.0.0",
