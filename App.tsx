@@ -1,9 +1,9 @@
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import CameraScreen from "./screens/CameraScreen";
-import PreviewScreen from "./screens/PreviewScreen";
-import CroppedPreviewScreen from "./screens/CroppedPreviewScreen";
+import CameraScreen from "./src/screens/CameraScreen";
+import PreviewScreen from "./src/screens/PreviewScreen";
+import CroppedPreviewScreen from "./src/screens/CroppedPreviewScreen";
 
 export type RootStackParamList = {
   Camera: undefined;

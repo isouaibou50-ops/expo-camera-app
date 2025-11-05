@@ -4,7 +4,7 @@ import { View, StyleSheet, TouchableOpacity, Text, Alert } from "react-native";
 import { CameraView, useCameraPermissions } from "expo-camera";
 import type { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import { useNavigation } from "@react-navigation/native";
-import type { RootStackParamList } from "../App";
+import type { RootStackParamList } from "../../App";
 
 type CameraScreenNavigationProp = NativeStackNavigationProp<
   RootStackParamList,

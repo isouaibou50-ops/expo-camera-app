@@ -2,7 +2,7 @@ import React from "react";
 import { View, StyleSheet, Image, Button, Dimensions, Alert } from "react-native";
 import { manipulateAsync, SaveFormat } from "expo-image-manipulator";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
-import type { RootStackParamList } from "../App";
+import type { RootStackParamList } from "../../App";
 import {
   PanGestureHandler,
   GestureHandlerRootView,
